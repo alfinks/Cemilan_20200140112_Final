@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hasil Pembelian</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Nota Pembelian</div>
+        <hr> 
+        <p> Nama Sayuran         : <b th:text="${nama_sayur}"></b>
+        <p> Harga                : <b th:text="${harga}"></b>
+        <p> Jumlah               : <b th:text="${jumlah}"></b> 
+        <p> total                : <b th:text="${total}"></b>
+        <p> Diskon               : <b th:text="${harga_diskon}"></b>
+        <p> jumlah bayar         : <b th:text="${bayar}"></b>  
+        <p> Tunai                : <b th:text="${tunai}"></b>  
+        <p> kembalian            : <b th:text="${kembalian}"></b>   
+        </hr>
+    </body>
+</html>
+
